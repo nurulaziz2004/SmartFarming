@@ -1,0 +1,34 @@
+|--- kelembaban_tanah <= 40.19
+|   |--- kelembaban_tanah <= 39.83
+|   |   |--- class: 1
+|   |--- kelembaban_tanah >  39.83
+|   |   |--- suhu <= 25.64
+|   |   |   |--- suhu <= 17.81
+|   |   |   |   |--- class: 1
+|   |   |   |--- suhu >  17.81
+|   |   |   |   |--- class: 0
+|   |   |--- suhu >  25.64
+|   |   |   |--- suhu <= 33.94
+|   |   |   |   |--- class: 1
+|   |   |   |--- suhu >  33.94
+|   |   |   |   |--- class: 0
+|--- kelembaban_tanah >  40.19
+|   |--- kelembaban <= 45.43
+|   |   |--- kelembaban_tanah <= 50.26
+|   |   |   |--- kelembaban <= 44.81
+|   |   |   |   |--- class: 1
+|   |   |   |--- kelembaban >  44.81
+|   |   |   |   |--- class: 0
+|   |   |--- kelembaban_tanah >  50.26
+|   |   |   |--- intensitas_cahaya <= 69.57
+|   |   |   |   |--- class: 0
+|   |   |   |--- intensitas_cahaya >  69.57
+|   |   |   |   |--- class: 0
+|   |--- kelembaban >  45.43
+|   |   |--- kelembaban <= 55.05
+|   |   |   |--- intensitas_cahaya <= 72.99
+|   |   |   |   |--- class: 0
+|   |   |   |--- intensitas_cahaya >  72.99
+|   |   |   |   |--- class: 0
+|   |   |--- kelembaban >  55.05
+|   |   |   |--- class: 0

@@ -1,0 +1,40 @@
+|--- suhu <= 29.89
+|   |--- kelembaban <= 84.94
+|   |   |--- suhu <= 29.72
+|   |   |   |--- kelembaban <= 84.56
+|   |   |   |   |--- class: 0
+|   |   |   |--- kelembaban >  84.56
+|   |   |   |   |--- class: 0
+|   |   |--- suhu >  29.72
+|   |   |   |--- intensitas_cahaya <= 67.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- intensitas_cahaya >  67.00
+|   |   |   |   |--- class: 0
+|   |--- kelembaban >  84.94
+|   |   |--- kelembaban <= 85.35
+|   |   |   |--- kelembaban_tanah <= 42.58
+|   |   |   |   |--- class: 0
+|   |   |   |--- kelembaban_tanah >  42.58
+|   |   |   |   |--- class: 1
+|   |   |--- kelembaban >  85.35
+|   |   |   |--- class: 1
+|--- suhu >  29.89
+|   |--- suhu <= 30.20
+|   |   |--- kelembaban_tanah <= 41.37
+|   |   |   |--- intensitas_cahaya <= 74.67
+|   |   |   |   |--- class: 0
+|   |   |   |--- intensitas_cahaya >  74.67
+|   |   |   |   |--- class: 1
+|   |   |--- kelembaban_tanah >  41.37
+|   |   |   |--- intensitas_cahaya <= 87.43
+|   |   |   |   |--- class: 1
+|   |   |   |--- intensitas_cahaya >  87.43
+|   |   |   |   |--- class: 0
+|   |--- suhu >  30.20
+|   |   |--- suhu <= 30.41
+|   |   |   |--- intensitas_cahaya <= 15.86
+|   |   |   |   |--- class: 0
+|   |   |   |--- intensitas_cahaya >  15.86
+|   |   |   |   |--- class: 1
+|   |   |--- suhu >  30.41
+|   |   |   |--- class: 1
